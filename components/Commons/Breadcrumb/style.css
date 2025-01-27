@@ -1,0 +1,8 @@
+.breadcrumb li:first-of-type a {
+  color: #24a74d;
+  font-size: 1.5rem;
+}
+
+.breadcrumb li a {
+  color: gray;
+}

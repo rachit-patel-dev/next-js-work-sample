@@ -1,0 +1,17 @@
+.required-mark {
+  position: relative;
+}
+
+.required-mark::after {
+  content: "*";
+  position: absolute;
+  color: red;
+  top: 0;
+}
+
+@media screen and (max-width: 510px) {
+  .radio-btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,16 @@
+.sidebar li:not(:last-child) {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.171);
+}
+.sidebar > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#sidebar li {
+  margin: 0;
+  padding: 0.3rem 0;
+}
+
+#sidebar li ul {
+  padding: 0;
+}
